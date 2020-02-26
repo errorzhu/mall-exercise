@@ -1,4 +1,4 @@
-package com.errorzhu.mall;
+package com.errorzhu.mall.mbg;
 
 import org.mybatis.generator.api.IntrospectedColumn;
 import org.mybatis.generator.api.IntrospectedTable;
