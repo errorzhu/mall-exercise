@@ -34,7 +34,7 @@
 
         <sqlMapGenerator targetPackage="mapper" targetProject="mall-admin\src\main\resources"/>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.errorzhu.mall.admin.dao"
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.errorzhu.mall.admin.mapper"
                              targetProject="mall-admin\src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="%">
