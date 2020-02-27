@@ -10,6 +10,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @Configuration
 @EnableTransactionManagement
-@MapperScan({"com.errorzhu.mall.mapper","com.errorzhu.mall.admin.mapper"})
+@MapperScan({"com.errorzhu.mall.admin.dao","com.errorzhu.mall.admin.mapper"})
 public class MyBatisConfig {
 }
