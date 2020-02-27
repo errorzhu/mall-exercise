@@ -9,7 +9,7 @@
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
         <property name="javaFileEncoding" value="UTF-8"/>
-        <!-- 为模型生成序列化方法-->s
+        <!-- 为模型生成序列化方法-->
         <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
         <!-- 为生成的Java模型创建一个toString方法 -->
         <plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>
@@ -30,12 +30,12 @@
             <property name="nullCatalogMeansCurrent" value="true" />
         </jdbcConnection>
 
-        <javaModelGenerator targetPackage="com.errorzhu.mall.mbg.model" targetProject="mall-mbg\src\main\java"/>
+        <javaModelGenerator targetPackage="com.errorzhu.mall.admin.model" targetProject="mall-admin\src\main\java"/>
 
-        <sqlMapGenerator targetPackage="com.errorzhu.mall.mbg.mapper" targetProject="mall-mbg\src\main\resources"/>
+        <sqlMapGenerator targetPackage="com.errorzhu.mall.mbg.mapper" targetProject="mall-admin\src\main\resources"/>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.errorzhu.mall.mbg.mapper"
-                             targetProject="mall-mbg\src\main\java"/>
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.errorzhu.mall.admin.dao"
+                             targetProject="mall-admin\src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="%">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
