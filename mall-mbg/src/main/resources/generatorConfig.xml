@@ -32,7 +32,7 @@
 
         <javaModelGenerator targetPackage="com.errorzhu.mall.admin.model" targetProject="mall-admin\src\main\java"/>
 
-        <sqlMapGenerator targetPackage="com.errorzhu.mall.mbg.mapper" targetProject="mall-admin\src\main\resources"/>
+        <sqlMapGenerator targetPackage="mapper" targetProject="mall-admin\src\main\resources"/>
 
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.errorzhu.mall.admin.dao"
                              targetProject="mall-admin\src\main\java"/>
